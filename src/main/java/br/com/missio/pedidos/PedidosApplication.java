@@ -20,7 +20,7 @@ public class PedidosApplication implements CommandLineRunner {
 		SpringApplication.run(PedidosApplication.class, args);
 	}
 
-    public void run(String... args) throws Exception {
+    public void run(String... args) {
 
         System.out.println("Exempo 1 ");
         var order1 = new Order(1034,150.0,20.0);
