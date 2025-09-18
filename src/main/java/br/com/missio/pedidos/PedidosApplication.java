@@ -39,7 +39,6 @@ public class PedidosApplication implements CommandLineRunner {
         System.out.printf("Pedido Código %d\nValor Total: R$ %.2f", order3.getCode(), orderService.total(order3));
         System.out.println();
 
-
     }
 
 }
